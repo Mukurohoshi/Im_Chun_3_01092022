@@ -1,0 +1,15 @@
+.header_container{
+    position: sticky;
+    top:0;
+    background: white;
+    height:65px;
+    box-shadow: $shadow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+   
+    &_logo{
+        width: 190px;
+    }
+}

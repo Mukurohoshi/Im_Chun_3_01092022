@@ -1,0 +1,17 @@
+$violet: #9356DC;
+$pink: #FF79DA;
+$turquoise: #99E2D0;
+$dark-grey: #636363cc;
+$color-background: #ececec;
+$soft-grey: #d3d3d3;
+$gradient: linear-gradient($pink, $violet);
+$gradient2: linear-gradient($pink, lighten($violet, 20));
+$base-margin: 0px 20px;
+$shadow: 0 2px 4px $dark-grey;
+$shadow-soft: 2px 2px 7px $soft-grey;
+$main-font: 'Roboto', sans-serif;
+$second-font: 'Shrikhand', cursive;
+$weight-title: bold;
+$weight-subtitle: normal;
+$size-title: 25px;
+$size-subtitle: 15px;
