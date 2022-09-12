@@ -1,0 +1,67 @@
+.restaurants_background{
+    background: $color-background;
+}
+.restaurants{
+    &_title{
+        font-weight: $weight-title;
+        font-size: $size-title;
+        padding: 40px 0 10px 20px;
+        margin: 0;
+    }
+    &_inserts{
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+.restaurants_card{
+    position: relative;
+    background: white;
+    height: 250px;
+    border-radius: 20px;
+    margin: 10px 20px;
+    box-shadow: 2px 2px 7px $soft-grey;
+    &_link{
+        text-decoration:none;
+        color: black;
+    }
+    &_image{
+        overflow: hidden;
+        height: 70%;
+    }
+    &_image_img{
+        border-radius: 20px 20px 0px 0px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    &_new{
+        @include newcart
+    }
+    &_heading_title{
+        @include title
+    }
+    &_heading_place{
+        @include subtitle
+    }
+    .hoverheart:hover{
+        .hoverheart_rempli{
+            opacity: 1;
+            transition: 0.3s ease-in-out;
+            
+        }
+        .hoverheart_transparent{
+            opacity: 0;
+            transition: 0.3s ease-in-out;
+        }
+    }
+    .hoverheart_rempli{
+        @include heart;
+        opacity: 0;
+    }
+    .hoverheart_transparent{
+        @include heart;
+        opacity: 1;
+    }
+}
