@@ -7,3 +7,11 @@
 @import "layout/_fonctionnement.scss";
 @import "utils/_carte.scss";
 @import "layout/_restaurants.scss";
+@import "layout/_footer.scss";
+
+
+body{
+    font-family: $main-font;
+    width: 100%;
+    margin: auto;
+}

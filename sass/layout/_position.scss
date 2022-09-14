@@ -10,12 +10,15 @@
         justify-content: center;
         align-items: center;
         font-size: 16px;
+        text-decoration: none;
     }
     &_text{
         margin: 0 25px;
+        color: black;
     }
     &_icon{
         margin-bottom: 2px;
+        color: black;
     }
 }
 .explorer_container{

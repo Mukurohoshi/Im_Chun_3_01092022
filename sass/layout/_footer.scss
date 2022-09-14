@@ -1,0 +1,22 @@
+.footer{
+    background: darken($dark-grey, 30%);
+    &_container{
+        padding:30px;
+        
+    }
+    &_container_title{
+        color:white;
+        font-family: $second-font;
+        margin:0;
+        padding-bottom:20px;
+    }
+    &_container_link{
+        display: block;
+        color:white;
+        margin: 10px 0;
+        text-decoration: none;
+    }
+    &_container_icon {
+        width: 30px;
+    }
+}
