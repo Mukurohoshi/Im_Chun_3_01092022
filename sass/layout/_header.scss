@@ -11,5 +11,19 @@
    
     &_logo{
         width: 190px;
+            }
+
+
+    &_retour{
+        color: $dark-grey;
+        font-size: 20px;
+        position: absolute;
+        left: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        &:hover{
+            color: darken($dark-grey,50%)
+        }
+
     }
 }

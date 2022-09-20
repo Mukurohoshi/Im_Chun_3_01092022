@@ -1,0 +1,59 @@
+.image_restaurant{
+    overflow: hidden;
+    height: 320px;
+        &_img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            object-position: center bottom;
+    }
+}
+
+.restaurant_container_grey_background{
+    position: relative;
+    background-color: $color-background;
+    border-radius: 45px 45px 0px 0px;
+    margin-top:-50px;
+    padding-bottom:10px;
+}
+
+.restaurant_container_menu{
+    margin: $base-margin;
+    &_title{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        padding: 27px 0;
+    }
+    &_text{
+        font-family: $second-font;
+        font-size: 30px;
+        margin:0;
+        
+    }
+}
+.hoverheart:hover{
+    .hoverheart_rempli{
+        opacity: 1;
+        scale: 1;
+        transition: 0.5s ease-in-out;
+        background: $gradient;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+    }
+    .hoverheart_transparent{
+        opacity: 0;
+        transition: 0.3s ease-in-out;
+        
+    }
+}
+.hoverheart_rempli{
+    @include heart;
+    opacity: 0;
+    scale: 0;
+}
+.hoverheart_transparent{
+    @include heart;
+    opacity: 1;
+}
