@@ -27,7 +27,7 @@
     }
     &_text{
         font-family: $second-font;
-        font-size: 30px;
+        font-size: 23px;
         margin:0;
         width: 80%;
     }
@@ -53,12 +53,14 @@
     @include heart;
     opacity: 0;
     scale: 0;
-    bottom: 32px
+    bottom: 28px;
+    font-size: 23px;
 }
 .hoverheart_transparent{
     @include heart;
     opacity: 1;
-    bottom: 32px;
+    bottom: 28px;
+    font-size: 23px;
 }
 
 
