@@ -45,8 +45,24 @@
         color: white;
     }
     &_insert_text{
-        padding: 27px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
         margin: 0;
         color: black;
     }
 }
+@media screen and (min-width: 768px) {
+
+    .fonctionnement_insert_link {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    }
+    .fonctionnement_title {
+        text-align: center;
+    }
+
+
+}
+

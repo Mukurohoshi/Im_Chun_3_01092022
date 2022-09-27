@@ -69,3 +69,19 @@
         opacity: 1;
     }
 }
+
+@media screen and (min-width: 768px) {
+
+    .restaurants_title {
+        text-align: center;
+    }
+
+}
+@media screen and (min-width: 1024px) {
+    .restaurants_inserts {
+    flex-direction: row;
+    }
+    .restaurants_card {
+    width: 25%;
+    }
+}
