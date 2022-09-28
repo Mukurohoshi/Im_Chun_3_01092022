@@ -22,8 +22,9 @@
       crossorigin="anonymous"
     ></script>
   </head>
-
-  <body>
+  
+  <body class="page_container">
+    <div>
     <div class="loader">
       <div class="loader_color_animation"></div>
     </div>
@@ -157,20 +158,24 @@
           
       </section>
   </main>
+    </div>
 
   <footer id="footer" class="footer">
     <div class="footer_container">
         <h4 class="footer_container_title">ohmyfood</h4>
-        <a href="#" class="footer_container_link">
-            <i class="fa-solid fa-utensils footer_container_icon"></i>Proposer un restaurant
-        </a>
-        <a href="#" class="footer_container_link">
-            <i class="fa-solid fa-handshake-angle footer_container_icon"></i>Devenir partenaire
-        </a>
-        <a href="#" class="footer_container_link">Mentions légales</a>
-        <a href="#" class="footer_container_link">Contact</a>
+        <div class="footer_container_links">
+          <a href="#" class="footer_container_link">
+              <i class="fa-solid fa-utensils footer_container_icon"></i>Proposer un restaurant
+          </a>
+          <a href="#" class="footer_container_link">
+              <i class="fa-solid fa-handshake-angle footer_container_icon"></i>Devenir partenaire
+          </a>
+          <a href="#" class="footer_container_link">Mentions légales</a>
+          <a href="mailto:ohmyfood@contact.com" class="footer_container_link">Contact</a>
+        </div>
     </div>
 </footer>
- </body>
+ 
+</body>
 </html>
 <!-- npm run sass -->

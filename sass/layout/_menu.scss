@@ -35,7 +35,7 @@
 .hoverheart:hover{
     .hoverheart_rempli{
         opacity: 1;
-        scale: 1;
+        // scale: 1;
         transition: 0.5s ease-in-out;
         background: $gradient;
         -webkit-background-clip: text;
@@ -52,7 +52,7 @@
 .hoverheart_rempli{
     @include heart;
     opacity: 0;
-    scale: 0;
+    // scale: 0;
     bottom: 28px;
     font-size: 23px;
 }
@@ -187,8 +187,46 @@
         width: 80%;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 4%;
     }
     .menu_title {
         margin: auto;
     }
+    .menu{
+    padding-bottom: 2.5%;
+
+
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .menu_container {
+        width: 60%;
+
+    }
+
+    .menu_title {
+        font-size: x-large;
+
+    }
+
+
+    .menu_container_title{
+
+    font-size: x-large;
+
+    }
+
+.menu_container_text{
+    font-size: large;
+
+
+}
+.menu_container_prix{
+    font-size: large;
+
+
+}
+
 }

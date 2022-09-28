@@ -10,6 +10,13 @@
 @import "layout/_footer.scss";
 @import "layout/_menu.scss";
 
+.page_container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
 body{
     font-family: $main-font;
     width: 100%;

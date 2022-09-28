@@ -19,15 +19,39 @@
     &_container_icon {
         width: 30px;
     }
+    
+
 }
 @media screen and (min-width: 768px) {
 
-    .footer_container_link {
-        display: inline-block;
-        margin: 2%;
-        flex-wrap: wrap;
+   .footer_container_links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         
+    }
+    .footer_container_link{
+        margin-right: 2%;
+    }
+
+    .footer_container_title{
+        display: flex;
+        justify-content: center;
     }
 
 
+
+
+}
+
+@media screen and (min-width: 1024px) {
+    .footer_container_title{
+        font-size: x-large;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer_container_link{
+        font-size: x-large;
+    }
 }

@@ -48,7 +48,7 @@
     .hoverheart:hover{
         .hoverheart_rempli{
             opacity: 1;
-            scale: 1;
+            // scale: 1;
             transition: 0.5s ease-in-out;
             background: $gradient;
             -webkit-background-clip: text;
@@ -62,7 +62,7 @@
     .hoverheart_rempli{
         @include heart;
         opacity: 0;
-        scale: 0;
+        // scale: 0;
     }
     .hoverheart_transparent{
         @include heart;
@@ -80,8 +80,20 @@
 @media screen and (min-width: 1024px) {
     .restaurants_inserts {
     flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 5%;
     }
     .restaurants_card {
-    width: 25%;
+    width: 40% ;
     }
+
+    .restaurants_background{
+    padding-bottom: 10.3%;
+}
+
+.restaurant_container_menu_text{
+
+font-size: xx-large !important;
+
+}
 }
