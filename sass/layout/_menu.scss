@@ -107,7 +107,10 @@
             }
     }
     &_container_title{
-        @include title
+        @include title;
+        white-space:nowrap;
+        overflow:hidden;
+        text-overflow: ellipsis; 
         }
     &_container_subtitle{
         display: flex;
