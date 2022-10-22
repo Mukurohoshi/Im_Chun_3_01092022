@@ -132,6 +132,11 @@
         padding-left: 10px;
         width:50px;
     }
+    &_container_void{
+        margin: 0;
+        padding-left: 10px;
+        width: 1px;
+    }
     &_container_confirmationbackground{
         position: absolute;
         background-color: $turquoise;
